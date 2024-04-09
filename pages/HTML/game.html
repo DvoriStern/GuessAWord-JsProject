@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="../CSS/gameStyle.css">
+    <link rel="icon" type="image/x-icon" href="../../images/qmark.png">
+
+</head>
+
+<body>
+    <div id="bg"></div>
+    <div id="header">
+        <img id="logoimg" src="../../images/logo1.png" alt="">
+    </div>
+    <div id="leftbar">
+        <div id="txtexper"></div>
+    </div>
+    <div id="main"><!--תוכן-->
+        <div id="word"> </div>
+        <div id="guesslet">
+            <div id="message"></div>
+            <div id="guesslet2">
+                <div id="txtl">נחש אות</div>
+                <input type="text" maxlength="1" id="letter">
+                <img src="../../images/vi.png" id="checkimg">
+            </div>
+        </div>
+        <div id="letused">
+            <div id="letused2">
+                <div id="txtlu"> :מחסן אותיות</div>
+                <div id="lettersused"></div>
+            </div>
+        </div>
+    </div>
+    <div id="finish">
+        <img src="../../images/gameOver.gif" alt="" id="imgfinish">
+        <div id="fin"></div>
+        <button class="btn" id="btnnewgame">משחק חדש
+            <img src="../../images/back-button.png" id="imgnewgame" alt="organs">
+        </button>
+    </div>
+
+    <script src="../JS/gameScript.js"></script>
+</body>
+
+</html>

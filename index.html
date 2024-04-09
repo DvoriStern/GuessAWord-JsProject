@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="pages/CSS/style.css">
+    <link rel="icon" type="image/x-icon" href="images/qmark.png">
+</head>
+
+<body>
+    <div id="bg"></div>
+    <div id="header">
+        <img id="logoimg" src="images/logo1.png" alt="">
+    </div>
+    <div id="leftbar">
+        <img src="images/manual.png" id="manual">
+    </div>
+    <div id="main"><!--תוכן עמוד התחלתי-->
+        <div id="start"><!--הצגת כפתורי הרמות-->
+            <button class="lev btn" value="1" id="btnl1">Level 1</button>
+            <button class="lev btn" value="2" id="btnl2">Level 2</button>
+        </div>
+        <div id="category"><!--הצגת כפתורי הקטגוריות-->
+            <div id="txtc">בחר קטגוריה להגרלת מילה</div>
+            <div id="animals" class="a">
+                <button class="cate btn" id="btnc1" value="animals">שמות חיות
+                    <img src="images/owlQ.png" class="imgc" alt="">
+                </button>
+
+            </div>
+            <div id="organs" class="a">
+                <button class="cate btn" value="organs" id="btnc2">שמות איברים
+                    <img src="images/heartQ.png" class="imgc" alt="organs">
+                </button>
+            </div>
+            <div id="fruits" class="a">
+                <button class="cate btn" value="fruits" id="btnc3">שמות פירות
+                    <img src="images/appleQ.png" class="imgc" alt="">
+                </button>
+
+            </div>
+            <div id="countries" class="a">
+                <button class="cate btn" value="countries" id="btnc4">שמות ארצות
+                    <img src="images/planet-earthQ.png" class="imgc" alt="">
+                </button>
+            </div>
+        </div>
+    </div>
+    <div id="popmenual"><!--פופאפ ההוראות-->
+        <p class="mcenter">
+            ??!!Guess What<br>
+            ברוכים הבאים למשחק ניחוש המילים!<br>
+        </p>
+        לפניכם הוראות המשחק:<br>
+        1. בחרו את רמת הקושי הרצויה.<br>
+        2. בחרו קטגוריה שממנה תוגרל המילה.<br>
+        3. הכניסו אות בעברית.<br>
+        4. בדקו את הניחוש שלכם ותראו אם פיצחתם חלק מהמילה!<br>
+        5. נסו לגלות את המילה כולה...<br>
+        6. הצלחתם? אתגרו את עצמכם לנחש מהר יותר!<br>
+        7. נכשלתם? נסו שוב אולי בפעם הבאה....
+        <p class="mcenter">
+            !!!!Lets Start<br>
+            <br>
+        </p>
+        <img id="imgpopmenual" src="images/start.gif" alt="">  
+    </div>
+    <script src="pages/JS/script.js"></script>
+
+</body>
+
+</html>
