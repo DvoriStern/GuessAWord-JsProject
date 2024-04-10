@@ -153,7 +153,7 @@ function startNewGame(){//פתיחת משחק חדש
     var audio =new Audio("../../sound/clear.wav");
     audio.play();
     setTimeout(function () {
-        location.href ="../../homepage.html" ;
+        location.href ="../../index.html" ;
     }, 700)
 
 }
